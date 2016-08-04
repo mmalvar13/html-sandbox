@@ -31,8 +31,61 @@
 		<!-- ADD YOUR CUSTOM JS FILES HERE -->
 		<script src="js/custom.js" type="text/javascript"></script>
 
+		<title>My Bootstrap Page</title>
 	</head>
-	<body>
-		<h1>Hai!</h1>
+	<body class="sfooter">
+
+		<div class="sfooter-content">
+
+			<!-- begin header-->
+			<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>My Bootstrap Page</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- begin main content-->
+			<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						side panel
+					</div>
+					<div class="col-md-9">
+						content panel
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						column one
+					</div>
+					<div class="col-md-4 col-sm-6">
+						column two
+					</div>
+					<div class="col-md-4 col-sm-6">
+						column three
+					</div>
+				</div>
+			</div>
+		</main>
+		</div>
+
+		<!--begin footer here-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						footer column one
+					</div>
+					<div class="col-md-6">
+						footer column two
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
